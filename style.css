@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("background image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.myComponent-bg {
+    background-image: url(background\ image.jpg);
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: 0 0 15px black;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.myborder {
+    background-color: #060027;
+    margin-top: 3rem;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+
+.hover-effect img:hover {
+    transition: 0.5s ease;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(243, 242, 242, 0.75);
+}
