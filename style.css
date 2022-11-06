@@ -38,3 +38,9 @@ body {
     cursor: pointer;
     box-shadow: 0 5px 20px rgba(243, 242, 242, 0.75);
 }
+
+.newback{
+    background-color: black;
+    border-radius: 8px;
+    margin-top: 4rem;
+}
