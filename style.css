@@ -68,7 +68,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 7rem;
 
 }
 
@@ -87,32 +87,6 @@ footer {
     font-size: 14px;
 }
 
-.socials {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-}
-
-.socials li {
-    margin: 0 10px;
-}
-
-.socials a {
-    text-decoration: none;
-    color: white;
-
-}
-
-.socials li a {
-    font-size: 1.1rem;
-    transition: color .3s ease;
-}
-
-.socials a:hover {
-    color: aqua;
-}
 
 .footer-bottom {
     background-color: #000;
