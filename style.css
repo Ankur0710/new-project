@@ -4,7 +4,8 @@
 }
 
 body {
-    background-image: url("background image.jpg");
+    background-image: url("backgroundnew.png");
+    min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -46,24 +47,15 @@ body {
 }
 
 
-/* .footerdesign{
-    background-image:url(footerimage.jpg);
-
-    margin-top: 4rem;
-    width: 100vw;
-    height: 50vh;
-} */
-
 footer {
-    /* background-color: #111; */
     background-image: url(footerimage.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: auto;
+    height: 50vh;
     width: 100vw;
     font-family: "open sans";
-    padding-top: 40px;
+    padding-top: 200px;
     color: white;
     margin-top: 3.5rem;
     border-top-left-radius: 34px;
@@ -76,6 +68,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding-top: 8rem;
 
 }
 
@@ -138,4 +131,13 @@ footer {
     text-transform: capitalize;
     opacity: .4;
     font-weight: 200;
+}
+
+.footerbuttons button {
+    border-radius: 20px;
+    background-color: grey;
+}
+
+.footerbuttons button:hover {
+    background-color: rgb(81, 81, 81);
 }
