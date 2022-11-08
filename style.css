@@ -7,7 +7,7 @@
 
 body {
     background-image: url("backgroundnew.png");
-    min-height: 500px;
+    min-height: 1000px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
