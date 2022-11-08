@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    font-family: 'Acme', sans-serif;
 }
 
 
@@ -117,9 +120,9 @@ footer {
 }
 
 
-@media only screen and (max-width:502px){
-    .responsive div img{
-      padding-right: 0px;
-      padding-left: 0px;
+@media only screen and (max-width:502px) {
+    .responsive div img {
+        padding-right: 0px;
+        padding-left: 0px;
     }
 }
