@@ -137,7 +137,7 @@ footer {
 }
 
 .main img {
-    height: auto;
+    height: 100%;
     max-width: 100%;
     vertical-align: middle;
 }
@@ -152,20 +152,9 @@ footer {
 
 .cards_item {
     display: flex;
-    padding: 1rem;
+    padding: 0.3rem;
 }
 
-@media (min-width: 300px) {
-    .cards_item {
-        width: 50%;
-    }
-}
-
-@media (min-width: 400px) {
-    .cards_item {
-        width: 33.3333%;
-    }
-}
 
 .card {
     background-color: white;
@@ -198,8 +187,14 @@ footer {
     font-weight: 400;
 }
 
-/* @media only screen and (max-width:478px) {
-    .main div img {
-        width: 100vw;
+@media (min-width: 300px) {
+    .cards_item {
+        width: 50%;
     }
-} */
+}
+
+@media (min-width: 400px) {
+    .cards_item {
+        width: 33.3333%;
+    }
+}
