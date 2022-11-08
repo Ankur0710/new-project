@@ -115,3 +115,11 @@ footer {
 .footerbuttons button:hover {
     background-color: rgb(81, 81, 81);
 }
+
+
+@media only screen and (max-width:502px){
+    .responsive div img{
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+}
