@@ -10,8 +10,7 @@ body {
     min-height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    background-attachment: scroll;
     font-family: 'Acme', sans-serif;
 }
 
