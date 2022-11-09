@@ -169,15 +169,6 @@ footer {
     background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
 }
 
-.card_title {
-    color: #ffffff;
-    font-size: 1.1rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    margin: 0px;
-}
-
 .card_text {
     color: #ffffff;
     font-size: 0.875rem;
